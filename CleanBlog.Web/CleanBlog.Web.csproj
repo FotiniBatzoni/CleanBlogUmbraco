@@ -348,6 +348,10 @@
     <Content Include="Views\Partials\Grid\Bootstrap3.cshtml" />
     <Content Include="Views\Partials\Grid\Bootstrap3-Fluid.cshtml" />
     <Content Include="Views\Partials\BlockList\Default.cshtml" />
+    <Content Include="Views\Article.cshtml" />
+    <Content Include="Views\ArticleList.cshtml" />
+    <Content Include="Views\Content.cshtml" />
+    <Content Include="Views\Contact.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
