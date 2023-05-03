@@ -17,8 +17,8 @@ using Umbraco.Core.Models.PublishedContent;
 using Umbraco.Web;
 using Umbraco.ModelsBuilder.Embedded;
 
-[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "61f6a1834589bf57")]
-[assembly:System.Reflection.AssemblyVersion("0.0.0.3")]
+[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "2a77878cc7afec6c")]
+[assembly:System.Reflection.AssemblyVersion("0.0.0.1")]
 
 namespace Umbraco.Web.PublishedModels
 {
@@ -642,7 +642,7 @@ namespace Umbraco.Web.PublishedModels
 	}
 
 	// Mixin Content Type with alias "contentControl"
-	/// <summary>Content Control</summary>
+	/// <summary>Content Controls</summary>
 	public partial interface IContentControl : IPublishedContent
 	{
 		/// <summary>Main Content</summary>
@@ -650,7 +650,7 @@ namespace Umbraco.Web.PublishedModels
 		global::Newtonsoft.Json.Linq.JToken MainContent { get; }
 	}
 
-	/// <summary>Content Control</summary>
+	/// <summary>Content Controls</summary>
 	[PublishedModel("contentControl")]
 	public partial class ContentControl : PublishedContentModel, IContentControl
 	{
