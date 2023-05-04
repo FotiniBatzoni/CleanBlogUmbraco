@@ -13,5 +13,7 @@ namespace CleanBlog.Core.ViewModels
         [Required(ErrorMessage = "Pease enter your message")]
         [MaxLength(500, ErrorMessage="Your message should not be longer than 500 characters")]
         public string Message { get; set; }
+
+        public int ContactFormId { get; set; }
     }
 }
