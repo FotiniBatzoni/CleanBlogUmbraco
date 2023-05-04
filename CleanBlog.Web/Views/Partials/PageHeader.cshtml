@@ -9,8 +9,9 @@
     string imageUrl = "";
     if (image != null)
     {
-        smallImageUrl = image.GetCropUrl("PageHeader.Tiny");
-        imageUrl = image.GetCropUrl("PageHeader.Large");
+        @*smallImageUrl = image.GetCropUrl("PageHeader.Tiny");
+        imageUrl = image.GetCropUrl("PageHeader.Large");*@
+        imageUrl = image.GetCropUrl(1903,532);
     }
 
     var authorName = Model.HasProperty("authorName") && Model.HasValue("authorName") 
