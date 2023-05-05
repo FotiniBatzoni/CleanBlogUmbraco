@@ -338,6 +338,8 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\lazysizes.min.js" />
+    <Content Include="Scripts\ls.unveilhooks.min.js" />
     <Content Include="Scripts\pleasedontgo.js" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -383,6 +385,8 @@
     <Content Include="Views\Partials\PageHeader.cshtml" />
     <Content Include="Views\Partials\Contact\ContactForm.cshtml" />
     <Content Include="Views\Partials\Contact\result.cshtml" />
+    <Content Include="Views\Redirect.cshtml" />
+    <Content Include="Views\XMLSitemap.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

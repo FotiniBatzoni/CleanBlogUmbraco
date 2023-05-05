@@ -13,10 +13,14 @@
     Html.RequiresCss("/assets/favicon.ico");
     Html.RequiresCss("/css/styles.css");
 
+    Html.RequiresJs("/scripts/lazysizes.min.js", new { async = "async" });
+    Html.RequiresJs("/scripts/ls.unveilhooks.min.js", new { async = "async" });
     Html.RequiresJs("/cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js");
     Html.RequiresJs("https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js");
     Html.RequiresJs("/js/scripts.js");
     Html.RequiresJs("/scripts/pleasedontgo.js");
+
+
 }
 
 <!DOCTYPE html>

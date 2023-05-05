@@ -638,6 +638,8 @@ Umbraco.Web.PublishedModels.Home, CleanBlog.Web, Version=1.0.0.0, Culture=neutra
 Umbraco.Web.PublishedModels.Image, CleanBlog.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.PublishedModels.MainImageControls, CleanBlog.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.PublishedModels.Member, CleanBlog.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Umbraco.Web.PublishedModels.Redirect, CleanBlog.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Umbraco.Web.PublishedModels.RedirectControls, CleanBlog.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.PublishedModels.Search, CleanBlog.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.PublishedModels.SEocontrols, CleanBlog.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.PublishedModels.UmbracoMediaArticle, CleanBlog.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -646,7 +648,4 @@ Umbraco.Web.PublishedModels.UmbracoMediaVectorGraphics, CleanBlog.Web, Version=1
 Umbraco.Web.PublishedModels.UmbracoMediaVideo, CleanBlog.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.PublishedModels.VisibilityControls, CleanBlog.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.PublishedModels.XMlsitemap, CleanBlog.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-
-Umbraco.Core.Deploy.IServiceConnector
-
 
