@@ -14,5 +14,7 @@ namespace CleanBlog.Core.ViewModels
         public double PageCount { get; set; }
 
         public bool IsArticleListPage { get; set; }
+
+        public string Url { get; set; }
     }
 }

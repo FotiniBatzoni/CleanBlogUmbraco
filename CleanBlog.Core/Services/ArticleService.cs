@@ -57,6 +57,7 @@ namespace CleanBlog.Core.Services
                 PageSize = pageSize,
                 Results = pageOfArticles,
                 IsArticleListPage = isArticleListPage,
+                Url = articleList.Url
             };
 
             return resultSet;
