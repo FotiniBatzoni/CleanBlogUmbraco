@@ -45,14 +45,14 @@ namespace Umbraco.Web.PublishedModels
 		// properties
 
 		///<summary>
-		/// Article Date: Enter the Date for the article
+		/// 🗓️Article Date: Enter the Date for the article
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.18.7")]
 		[ImplementPropertyType("articleDate")]
 		public virtual global::System.DateTime ArticleDate => global::Umbraco.Web.PublishedModels.ArticleControls.GetArticleDate(this);
 
 		///<summary>
-		/// Author Name: Enter the name of the author
+		/// 😊Author Name: Enter the name of the author
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.18.7")]
 		[ImplementPropertyType("authorName")]

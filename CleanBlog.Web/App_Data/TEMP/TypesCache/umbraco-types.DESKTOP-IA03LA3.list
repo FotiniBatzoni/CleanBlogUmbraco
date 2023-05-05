@@ -647,3 +647,6 @@ Umbraco.Web.PublishedModels.UmbracoMediaVideo, CleanBlog.Web, Version=1.0.0.0, C
 Umbraco.Web.PublishedModels.VisibilityControls, CleanBlog.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.PublishedModels.XMlsitemap, CleanBlog.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 
+Umbraco.Core.Deploy.IServiceConnector
+
+
