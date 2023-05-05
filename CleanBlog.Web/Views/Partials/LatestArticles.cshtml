@@ -1,6 +1,8 @@
 ﻿@inherits UmbracoViewPage
 @using Umbraco.Web.PublishedModels
 @using CleanBlog.Core.Helpers
+@using CleanBlog.Core.ViewPages
+@using CleanBlog.Core.Services
 
 @{
     var articleList = Model.Root().Descendants<ArticleList>().FirstOrDefault();
@@ -13,16 +15,23 @@
         .Where(x => x.IsVisible())
         .OrderByDescending(y => y.ArticleDate);
 
+    //var siteRoot = Model.Root();
+
+    //var articleList = (ArticleList)ArticleService.GetArticleListPage(siteRoot);
+
+    //var articles = ArticleService.GetLatestArticles(siteRoot).Cast<Article>();
+
     var isArticleListPage = articleList.Id == Model.Id;
     var fallbackPageSize = isArticleListPage ? 10 : 3;
 
     var pageNumber = QueryStringHelper.GetIntFromQueryString(Request, "page", 1);
-    var pageSize = QueryStringHelper.GetIntFromQueryString(Request, "size", fallbackPageSize) ;
+    var pageSize = QueryStringHelper.GetIntFromQueryString(Request, "size", fallbackPageSize);
 
     var pageOfArticles = articles.Skip((pageNumber - 1) * pageSize).Take(pageSize);
     var totalItemCount = articles.Count();
     var pageCount = totalItemCount > 0 ? Math.Ceiling((double)totalItemCount / pageSize) : 1;
 
+    //var resultSet = ArticleService.GetLatestArticles(Model, Request);
 
 }
 
